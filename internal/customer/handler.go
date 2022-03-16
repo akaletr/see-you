@@ -1,9 +1,11 @@
 package customer
 
 import (
-	"cmd/main/main.go/internal/handlers"
-	"github.com/go-chi/chi/v5"
 	"net/http"
+
+	"cmd/main/main.go/internal/handlers"
+
+	"github.com/go-chi/chi/v5"
 )
 
 type handler struct {
