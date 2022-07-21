@@ -35,5 +35,5 @@ func GetConfig() (*Config, error) {
 	flag.StringVar(&cfg.DatabaseDSN, "s", cfg.DatabaseDSN, "database DSN")
 	flag.StringVar(&cfg.SecretKey, "d", cfg.SecretKey, "secret key")
 
-	return &Config{}, nil
+	return &cfg, nil
 }
