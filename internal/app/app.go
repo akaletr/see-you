@@ -1,15 +1,17 @@
 package app
 
 import (
-	"cmd/main/main.go/internal/storage"
-	"cmd/main/main.go/internal/user"
 	"encoding/json"
 	"fmt"
-	"github.com/go-chi/chi/v5"
 	"io"
 	"log"
 	"net/http"
 	"strconv"
+
+	"cmd/main/main.go/internal/storage"
+	"cmd/main/main.go/internal/user"
+
+	"github.com/go-chi/chi/v5"
 )
 
 type app struct {
